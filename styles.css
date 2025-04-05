@@ -1,0 +1,80 @@
+#Home{
+    width: max-content;
+    height: max-content;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#head{
+    background-position: center;
+}
+.nav-links{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    font-size: x-large;
+}
+
+#desktop-nav
+ul{
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    display: inline;
+}
+
+#About{
+    position: fixed;
+}
+.about-text{
+    text-align: center;
+    text-justify: auto;
+}
+.about-picture{
+    position: relative;
+    z-index: 1;
+}
+
+.sub-title{
+    font-size: large;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+#Menu{
+    position: fixed;
+}
+.Menu-picture{
+    text-align: center;
+}
+
+#Contact{
+    position: fixed;
+}
+.contact-title{
+    text-align: center;
+}
+
+.listed-details{
+    display: inline;
+    text-align: center;
+}
+
+.btn{
+    display: inline;
+}
+#Footer{
+    position: fixed;
+}
+
+.footer-nav{
+    text-align: center;
+}
+.footer-paragraph{
+    text-align: center;
+}
