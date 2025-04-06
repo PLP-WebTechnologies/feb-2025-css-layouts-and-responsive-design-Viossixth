@@ -3,6 +3,9 @@
     height: max-content;
     margin-left: 5rem;
     margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #head{
@@ -17,7 +20,12 @@
     font-size: x-large;
 }
 
-#desktop-nav
+#desktop-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 ul{
     list-style-type:none;
     margin: 0%;
@@ -30,6 +38,9 @@ li{
 
 #About{
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .about-text{
     text-align: center;
@@ -48,6 +59,9 @@ li{
 
 #Menu{
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .Menu-picture{
     text-align: center;
@@ -55,6 +69,8 @@ li{
 
 #Contact{
     position: fixed;
+    display: flex;
+    justify-content: space-around;
 }
 .contact-title{
     text-align: center;
@@ -70,11 +86,12 @@ li{
 }
 #Footer{
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
 }
 
-.footer-nav{
-    text-align: center;
-}
 .footer-paragraph{
     text-align: center;
 }
